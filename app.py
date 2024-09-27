@@ -23,24 +23,24 @@ def main():
     st.title("📚 Funciones Proposicionales y Cuantificadores")
     
     # Sección de Instrucciones y Propósito
-    st.header("🔍 ¿Para Qué Sirve Esta Aplicación?")
+    st.header("🔍 ¿Para qué sirve esta aplicación?")
     st.markdown("""
     Esta aplicación te permite **identificar números pares** dentro de un rango definido y **evaluar proposiciones** utilizando cuantificadores universales y existenciales.
     
-    ### 📋 **Objetivos de la Aplicación**
+    ### 📋 **Objetivos de la aplicación**
     - **Identificar Números Pares**: Ingresa un rango de números y la aplicación mostrará cuáles son pares.
     - **Evaluar Proposiciones Cuantificadas**:
       - **Universal (∀)**: "Todos los números en el dominio son pares."
       - **Existencial (∃)**: "Existe al menos un número par en el dominio."
     
-    ### 🛠️ **Cómo Usar la Aplicación**
-    1. **Definir el Dominio**:
+    ### 🛠️ **Cómo usar la aplicación**
+    1. **Definir el dominio**:
        - En la barra lateral, ingresa el **número de inicio** y el **número de fin** para definir el rango de números que deseas evaluar.
-    2. **Visualizar el Dominio**:
+    2. **Visualizar el dominio**:
        - La aplicación mostrará el dominio actual en la sección "📊 Dominio de Evaluación".
     3. **Evaluar P(x)**:
        - La sección "🔍 Evaluación de P(x)" mostrará cuáles números en el dominio son pares (**Verdadero**) o impares (**Falso**).
-    4. **Evaluar Proposiciones Cuantificadas**:
+    4. **Evaluar proposiciones cuantificadas**:
        - **∀x ∈ dominio, P(x)**: Haz clic en este botón para verificar si **todos** los números en el dominio son pares.
        - **∃x ∈ dominio, P(x)**: Haz clic en este botón para verificar si **al menos uno** de los números en el dominio es par.
     """)
